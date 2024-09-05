@@ -1,14 +1,14 @@
 body {
     font-family: 'Georgia', serif;
-    background-color: #e3f2fd; /* Light blue background */
-    color: #0d47a1; /* Dark regal blue text */
+    background-color: #f5f5dc; /* Beige background */
+    color: #4a2c2a; /* Dark brown text */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #0d47a1; /* Deep regal blue for the header */
-    color: #ffffff; /* White text for contrast */
+    background-color: #d1bfa7; /* Light beige for the header */
+    color: #4a2c2a; /* Dark brown text */
     padding: 20px;
     text-align: center;
 }
@@ -42,11 +42,10 @@ ul {
 }
 
 a {
-    color: #1565c0; /* Bright royal blue for links */
+    color: #4a2c2a;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #1e88e5; /* Lighter royal blue on hover */
 }
