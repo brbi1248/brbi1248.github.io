@@ -1,14 +1,14 @@
 body {
     font-family: 'Georgia', serif;
-    background-color: #f0e6f6; /* Light lavender background */
-    color: #3e2a5b; /* Dark purple text */
+    background-color: #e3f2fd; /* Light blue background */
+    color: #0d47a1; /* Dark regal blue text */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #d4a6e1; /* Soft lavender for the header */
-    color: #2e1a38; /* Darker purple text */
+    background-color: #0d47a1; /* Deep regal blue for the header */
+    color: #ffffff; /* White text for contrast */
     padding: 20px;
     text-align: center;
 }
@@ -42,11 +42,11 @@ ul {
 }
 
 a {
-    color: #4b2e6f; /* Dark purple for links */
+    color: #1565c0; /* Bright royal blue for links */
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #6f3b7f; /* Slightly lighter purple on hover */
+    color: #1e88e5; /* Lighter royal blue on hover */
 }
