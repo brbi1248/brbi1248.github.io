@@ -1,7 +1,7 @@
 # Brittany's Professional Development Project Weekly Updates
 ## A place where I post my weekly progress of my professional development project
 	
- ### Week 2: September 1 - September 7
+ ## Week 2: September 1 - September 7
 - What did you do last week?
   - I brainstormed ideas for my predictive modeling project datasets and narrowed it down to three:
     - Analyze and predict user behavior on instagram based on likes and postings. Dataset: https://www.kaggle.com/datasets/sanjanchaudhari/user-behavior-on-instagram
