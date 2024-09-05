@@ -1,0 +1,51 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f5f5dc; /* Beige background */
+    color: #4a2c2a; /* Dark brown text */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d1bfa7; /* Light beige for the header */
+    color: #4a2c2a; /* Dark brown text */
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+main {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+a {
+    color: #4a2c2a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
