@@ -1,27 +1,61 @@
-# Brittany's Professional Development Project Weekly Updates
-## A place where I post my weekly progress of my professional development project
-	
- ## Week 2: September 1 - September 7
-- What did you do last week?
-  - I brainstormed ideas for my predictive modeling project datasets and narrowed it down to three:
-    - Analyze and predict user behavior on instagram based on likes and postings. Dataset: https://www.kaggle.com/datasets/sanjanchaudhari/user-behavior-on-instagram
-    - Predict user's well being based on their social media usage. Dataset: https://www.kaggle.com/datasets/emirhanai/social-media-usage-and-emotional-well-being
-    - Analyze and predict consumer behavior based on demographics and shopping habits. Dataset: https://www.kaggle.com/datasets/zeesolver/consumer-behavior-and-shopping-habits-dataset
-  - Did research on the python packages I would like to use and narrowed it down to two:
-      - Scikit-Learn for simpler methods like logistic regresssion, random forest, classification, etc, in the beginning: https://scikit-learn.org/stable/
-      - Pytorch for more advanced modeling with neural networks later: https://pytorch.org/docs/stable/index.html
-  - Practiced interviewing soft skills by writing down several stories for interviewing question with star (situation, task, action, result) methods.
-  - Had my husband who is a hiring manager grill me on these stories.
-  - Practiced several medium sql questions on leetcode to keep my skills refreshed.
-    
-- What do you plan to do this week?
-    - Decide on which dataset most interests me and think of which modeling method I would like to start with.
-    - Analyze that dataset for which variables look the most interesting.
-    - Practice the star method more.
-    - Decide on the IDE needed to start this project and what packages I need to clean and prep this dataset with.
-- Are there any impediments in your way?
-    - I haven't cleaned or prepared a dataset in a year so it will take some time looking through my old notes on how to start.
-    - It will take some trial and error learning how to use scikit-learn and pytorch. 
-- Reflection on the process you used last week, how can you make the process work better?
-    - I don't think I used my time efficiently and just lumped all my research into one day. I would like to spread out my project over multiple days so I don't get mentally overwhelmed by all the information.
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brittany's Professional Development Project Weekly Updates</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Brittany's Professional Development Project Weekly Updates</h1>
+        <p>A place where I post my weekly progress of my professional development project</p>
+    </header>
+    <main>
+        <section>
+            <h2>Week 2: September 1 - September 7</h2>
+            <h3>What did you do last week?</h3>
+            <ul>
+                <li>
+                    I brainstormed ideas for my predictive modeling project datasets and narrowed it down to three:
+                    <ul>
+                        <li><a href="https://www.kaggle.com/datasets/sanjanchaudhari/user-behavior-on-instagram">Analyze and predict user behavior on Instagram based on likes and postings</a></li>
+                        <li><a href="https://www.kaggle.com/datasets/emirhanai/social-media-usage-and-emotional-well-being">Predict user's well-being based on their social media usage</a></li>
+                        <li><a href="https://www.kaggle.com/datasets/zeesolver/consumer-behavior-and-shopping-habits-dataset">Analyze and predict consumer behavior based on demographics and shopping habits</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Did research on the Python packages I would like to use and narrowed it down to two:
+                    <ul>
+                        <li><a href="https://scikit-learn.org/stable/">Scikit-Learn for simpler methods like logistic regression, random forest, classification, etc.</a></li>
+                        <li><a href="https://pytorch.org/docs/stable/index.html">PyTorch for more advanced modeling with neural networks</a></li>
+                    </ul>
+                </li>
+                <li>Practiced interviewing soft skills by writing down several stories for interviewing questions with STAR (Situation, Task, Action, Result) methods.</li>
+                <li>Had my husband, who is a hiring manager, grill me on these stories.</li>
+                <li>Practiced several medium SQL questions on LeetCode to keep my skills refreshed.</li>
+            </ul>
+        </section>
+        <section>
+            <h3>What do you plan to do this week?</h3>
+            <ul>
+                <li>Decide on which dataset most interests me and think of which modeling method I would like to start with.</li>
+                <li>Analyze that dataset for which variables look the most interesting.</li>
+                <li>Practice the STAR method more.</li>
+                <li>Decide on the IDE needed to start this project and what packages I need to clean and prep this dataset with.</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Are there any impediments in your way?</h3>
+            <ul>
+                <li>I haven't cleaned or prepared a dataset in a year, so it will take some time looking through my old notes on how to start.</li>
+                <li>It will take some trial and error learning how to use Scikit-Learn and PyTorch.</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Reflection on the process you used last week, how can you make the process work better?</h3>
+            <p>I don't think I used my time efficiently and just lumped all my research into one day. I would like to spread out my project over multiple days so I don't get mentally overwhelmed by all the information.</p>
+        </section>
+    </main>
+</body>
+</html>
