@@ -10,7 +10,7 @@ header {
     background-color: #d1bfa7; /* Light beige for the header */
     color: #4a2c2a; /* Dark brown text */
     padding: 20px;
-    text-align: center;
+    text-align: center; /* Center only the header */
 }
 
 h1, h2, h3 {
@@ -34,28 +34,7 @@ h3 {
 
 main {
     padding: 20px;
-    text-align: center;
-}
-
-.banner {
-    background-color: #4a2c2a; /* Dark brown for the banner */
-    padding: 10px;
-    text-align: center;
-}
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px;
-    font-size: 16px;
-    color: #f5f5dc; /* Beige text for buttons */
-    background-color: #4a2c2a; /* Dark brown background for buttons */
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.button:hover {
-    background-color: #6b4c41; /* Slightly lighter brown on hover */
+    text-align: left; /* Align text to the left in the main content */
 }
 
 ul {
@@ -70,4 +49,24 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.banner {
+    background-color: #d1bfa7; /* Light beige for the banner */
+    padding: 10px;
+    text-align: center;
+}
+
+.button {
+    background-color: #4a2c2a; /* Dark brown for buttons */
+    color: #f5f5dc; /* Beige text for buttons */
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #654321; /* Darker shade for hover */
 }
