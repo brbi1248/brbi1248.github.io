@@ -70,3 +70,11 @@ a:hover {
 .button:hover {
     background-color: #654321; /* Darker shade for hover */
 }
+
+.intro {
+    max-width: 600px; /* Set a maximum width for the text container */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: left; /* Align the text to the left */
+    padding: 20px; /* Add some padding around the text */
+}
+
