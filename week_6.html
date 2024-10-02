@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brittany's Professional Development Project Weekly Updates - Week X</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Brittany's Professional Development Project Weekly Updates</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     <header>
-        <h1>Brittany's Professional Development Project Weekly Updates - Week X</h1>
+        <h1>Brittany's Professional Development Project Weekly Updates</h1>
         <p>A place where I post my weekly progress of my professional development project</p>
     </header>
     <div class="banner">
@@ -18,27 +18,50 @@
     </div>
     <main>
         <section>
-            <h2>Week X: [Dates]</h2>
+            <h2>Week 6: September 29 - October 5</h2>
             <h3>What did you do last week?</h3>
             <ul>
-                <li></li>
+                <li>Practiced STAR interview questions.</li>
+                <li>Completed a few LeetCode questions.</li>
+                <li>Made progress with my predictive model:</li>
+                <ul>
+                    <li>Decided on a different predictive question: Predict the category of the item purchased (e.g., Backpack, Belt, etc.) based on customer features.</li>
+                    <li>Identified three models that would be suitable for the question:</li>
+                    <ul>
+                        <li>Start with logistic regression to establish a baseline.</li>
+                        <li>Move on to random forest for its customizability and flexibility.</li>
+                        <li>Finally, experiment with XGBoost to potentially achieve the best performance.</li>
+                    </ul>
+                    <li>Began on the logistic regression model and hot encoded all columns.</li>
+                    <li>Ran the model and found each item had horrible accuracy results.</li>
+                    <li>Identified the next steps to improve the logistic regression model:</li>
+                    <ul>
+                        <li>Check for class imbalances.</li>
+                        <li>Remove and edit features.</li>
+                        <li>Use cross-validation.</li>
+                    </ul>
+                </ul>
             </ul>
         </section>
         <section>
             <h3>What do you plan to do this week?</h3>
             <ul>
-                <li></li>
+                <li>Try to improve my logistic regression model and then move to random forest after.</li>
+                <li>Focus on preparing for a behavioral interview and case study I have next week.</li>
+                <li>Practice SQL questions.</li>
             </ul>
         </section>
         <section>
             <h3>Are there any impediments in your way?</h3>
             <ul>
-                <li></li>
+                <li>I don't see any impediments with my model so far as I am just starting and I can always move onto the next if the first isn't working. In terms of preparing for my interview, I could see my nerves getting in the way and making me flustered when prepping for behavioral interview questions out loud. Practice makes perfect for this.</li>
             </ul>
         </section>
         <section>
-            <h3>Reflection on the process you used last week, how can you make the process work better?</h3>
-            <p></p>
+            <h3>Reflection on last week’s process and how to improve it:</h3>
+            <ul>
+                <li>I realized that the first predictive question I wanted to explore—predicting whether a customer would buy an item—didn't make much sense because the dataset focused solely on consumers who had already purchased an item. Essentially, it could be argued that all these customers would buy an item since they already have. This was an embarrassing moment for me and made me realize that I needed to put more thought into my dataset. Going forward, I need to slow down and carefully consider meaningful ideas when it comes to predictive analysis.</li>
+            </ul>
         </section>
     </main>
 </body>
