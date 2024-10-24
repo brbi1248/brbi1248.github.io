@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brittany's Professional Development Project Weekly Updates - Week 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Brittany's Professional Development Project Weekly Updates - Week 9</h1>
+        <p>A place where I post my weekly progress of my professional development project</p>
+    </header>
+    <div class="banner">
+        <a href="index.html" class="button">Home</a>
+        <a href="project_proposal.html" class="button">Project Proposal</a>
+        <a href="weekly_updates.html" class="button">Weekly Updates</a>
+    </div>
+    <main>
+        <section>
+            <h2>Week 9: October 20 - October 26</h2>
+            <h3>What did you do last week?</h3>
+            <ul>
+                <li>Worked on a take-home classification predictive model for an interview.</li>
+                <li>Worked on my regression model: 
+                    <ul>
+                        <li>Tried a simple linear regression model, but the results were disappointing with bad mean squared error (MSE) and R-squared scores.</li>
+                        <li>Performed correlation tests and dropped several features, but it didn’t improve performance.</li>
+                        <li>Implemented Lasso and Ridge regularization, followed by XGBoost and Random Forest models, but still saw no improvement.</li>
+                        <li>Realized the target variable had too much variance, making it unsuitable for regression.</li>
+                        <li>Attempted using different continuous target variables, but the model fits were still bad, so I decided to go back to the drawing board.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h3>What do you plan to do this week?</h3>
+            <ul>
+                <li>Research datasets on Kaggle to identify those that are well-suited for linear regression, then begin data cleaning and exploratory data analysis (EDA).</li>
+                <li>Practice behavioral interview questions.</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Are there any impediments in your way?</h3>
+            <ul>
+                <li>Given the issues with my last dataset, I want to avoid similar problems. I plan to take my time selecting a dataset that has had prior success with linear regression on Kaggle.</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Reflection on the process you used last week, how can you make the process work better?</h3>
+            <p>
+                I now realize that I overlooked some warning signs during my exploratory data analysis (EDA), especially the high variance in my target variable, because I really wanted to use this dataset. In the future, I’ll be more mindful of EDA results and proceed with caution to avoid similar mistakes.
+            </p>
+        </section>
+    </main>
